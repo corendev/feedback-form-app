@@ -1,0 +1,31 @@
+.mark
+{
+    display: flex;
+    margin-left: 0.5em;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1em;
+    height: 3em;
+    width: 3em;
+    border: 1px solid #362EB5;
+}
+
+.mark:hover
+{
+    border-radius: 0.5em;
+}
+
+.inactive-mark
+{
+    color: #362EB5;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.active-mark
+{
+   color: white;
+   background-color: #362EB5; 
+   border-radius: 0.5em;
+}
